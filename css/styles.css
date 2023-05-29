@@ -5,22 +5,51 @@
     font-family: Arial, sans-serif;
 }
 
-html {
-    margin: 0;
-}
-
-body {
-    margin: 0;
-}
-
-.header-section {
+.header__banner {
     position: sticky;
     top: 0;
-    width: 100%;
-    margin-top: 0;
-}
-
-.header__banner {
     display: block;
     width: 100%;
+    margin: 0;
+    pointer-events: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.menu {
+    margin-top: -1rem;
+    padding: 1.7rem;
+    background-color: #bef39b;
+}
+
+nav .menu {
+    list-style-type: none;
+}
+
+nav .menu__part {
+    float: left;
+    width: 11.111%;
+    text-align: center;
+}
+
+nav .menu::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav {
+    width: 100%;
+    margin: 16px 0 auto auto;
+    background-color: white;
+    position: sticky;
+}
+
+nav .menu__part__link {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+nav .menu__part__link:hover {
+    color:coral;
 }
