@@ -3,12 +3,15 @@
 
 <head>
     <Title>Association Sancyberie - Site Officiel</Title>
+    <link rel="stylesheet" href="css\styles.css">
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="./assets/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
+    <link rel="manifest" href="./assets/site.webmanifest">
+    <link rel="mask-icon" href="./assets/safari-pinned-tab.svg" color="#5daaff">
+    <link rel="shortcut icon" href="./assets/favicon.ico">
+    <meta name="msapplication-TileColor" content="#5daaff">
+    <meta name="msapplication-config" content="./assets/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
     <meta charset="UTF-8">
     <meta name="keywords" content="Francorusse, Culture, Art, Musique, Danse, Voyages, France, Russie, Jbanov">
@@ -19,10 +22,26 @@
 </head>
 
 <body>
-    <main class="main-content">
-        <header class="header-section">
-            <img src="assets\header.png" alt="banner" class="header__banner">
+    <main>
+        <header>
+            <img class="header__banner" src="assets\header.png" alt="banner">
         </header>
+        <nav>
+            <ul class="menu">
+                <div class="menu__parts">
+                    <li class="menu__part" id="Accueil"><a class="menu__part__link" href="#">Accueil</a></li>
+                    <li class="menu__part" id="Administration"><a class="menu__part__link" href="#">Administration</a></li>
+                    <li class="menu__part" id="Statuts"><a class="menu__part__link" href="#">Statuts</a></li>
+                    <li class="menu__part" id="Adhésion"><a class="menu__part__link" href="#">Adhésion</a></li>
+                    <li class="menu__part" id="Projets"><a class="menu__part__link" href="#">Projets</a></li>
+                    <li class="menu__part" id="FESTIVALS"><a class="menu__part__link" href="#">FESTIVALS</a></li>
+                    <li class="menu__part" id="Historique"><a class="menu__part__link" href="#">Historique</a></li>
+                    <li class="menu__part" id="Contact"><a class="menu__part__link" href="#">Contact</a></li>
+                    <li class="menu__part" id="Liens"><a class="menu__part__link" href="#">Liens</a></li>
+                </div>
+            </ul>
+        </nav>    
+        
     </main>
 </body>
 </html>
