@@ -17,7 +17,6 @@
 
 .menu {
     margin-top: -1rem;
-    padding: 1.7rem;
     background-color: #bef39b;
 }
 
@@ -45,9 +44,13 @@ nav {
 }
 
 nav .menu__part__link {
-    display: block;
+    display: inline-block;
     text-decoration: none;
     color: black;
+    padding: 0 0.5rem;
+    font-family: 'BalanineSerial';
+    font-size: 30px;
+    line-height: 50px;
 }
 
 nav .menu__part__link:hover {
