@@ -5,18 +5,31 @@
     font-family: Arial, sans-serif;
 }
 
-.header__banner {
+header {
+    text-align: center;
+	width: 100%;
+	z-index: 9998;
+	position: -webkit-sticky;
     position: sticky;
     top: 0;
+}
+
+.header__banner {
     display: block;
     width: 100%;
     margin: 0;
     pointer-events: none;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+nav {
+    width: 100%;
+    margin: -1px 0 auto auto;
+    background-color: white;
+    position: fixed;
+    z-index: 9999;
 }
 
 .menu {
-    margin-top: -1rem;
     background-color: #bef39b;
 }
 
@@ -36,23 +49,20 @@ nav .menu::after {
     clear: both;
 }
 
-nav {
-    width: 100%;
-    margin: 16px 0 auto auto;
-    background-color: white;
-    position: sticky;
-}
-
 nav .menu__part__link {
     display: inline-block;
     text-decoration: none;
     color: black;
     padding: 0 0.5rem;
-    font-family: 'BalanineSerial';
-    font-size: 30px;
-    line-height: 50px;
+    font-family: 'Segoe Print';
+    font-size: 20px;
+    line-height: 42px;
 }
 
 nav .menu__part__link:hover {
     color:coral;
+}
+
+p {
+    position: relative;
 }
