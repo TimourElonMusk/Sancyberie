@@ -23,9 +23,7 @@ header {
 
 nav {
     width: 100%;
-    margin: -1px 0 auto auto;
     background-color: white;
-    position: fixed;
     z-index: 9999;
 }
 
@@ -53,9 +51,9 @@ nav .menu__part__link {
     display: inline-block;
     text-decoration: none;
     color: black;
-    padding: 0 0.5rem;
-    font-family: 'Segoe Print';
-    font-size: 20px;
+    padding: 0 0.3rem;
+    font-family: 'French Script MT';
+    font-size: 29px;
     line-height: 42px;
 }
 
@@ -63,6 +61,93 @@ nav .menu__part__link:hover {
     color:coral;
 }
 
-p {
-    position: relative;
+.submenu {
+	visibility: hidden;
+	box-shadow: 0 0.06rem 0.125rem rgb(44, 44, 44);
+	background-color: #bef39b;
+	padding-left: 0;
+	position: absolute;
+	list-style-type: none;
+    width: 13%;
+	z-index: 1000;
+	opacity: 0;
+	transform: translateY(-5px);
+	transition: opacity .5s, visibility .5s, transform .2s;
+}
+
+.submenu a li {
+    font-family: 'French Script MT';
+    font-size: 1.35rem;
+    text-decoration: none;
+    color:black;
+}
+
+.submenu a li:hover {
+    color:coral;
+}
+
+nav > ul li:hover .submenu {
+	visibility: visible;
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.submenu li{ /* Les éléments des sous-menus doivent s'afficher les uns en dessous des autres */
+	float: none;
+	width: 100%;
+	text-align: left;
+}
+
+.submenu a{ /* Mise en forme des onglets des sous-menus */
+	padding: 0.625rem;
+	border-bottom: none;
+    text-decoration: none;
+}
+.submenu a:hover{
+	border-bottom: none;
+	background-color: rgba(200,200,200,0.1);
+}
+
+.scrolling-menu > a::after{ /* Symbole ▼ pour faire comprendre que c'est un menu déroulant */
+	content: "▼";
+	font-size: 0.75rem;
+}
+
+.picture__container {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin: 40px auto; 
+}
+
+#painting {
+    width: 30rem;
+    margin-bottom: 1rem;
+}
+
+.centered-div-text {
+    display:flex;
+    justify-content: center;
+    margin: auto 22rem;
+}
+
+.centered-text {
+    display: block;
+    text-align: center;
+    margin: 0.5rem auto -1.1rem auto;
+}
+
+.paragraph {
+    line-height: 1.45rem;
+    font-size: 18px;
+}
+
+.calligraphy-letter {
+    font-family: 'Lucida Calligraphy';
+}
+
+.bold-text {
+    font-weight: bold;
 }
