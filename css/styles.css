@@ -28,7 +28,7 @@ nav {
 }
 
 .menu {
-    background-color: #bef39b;
+    background-color: #ddffc6;
 }
 
 nav .menu {
@@ -58,7 +58,7 @@ nav .menu__part__link {
 }
 
 nav .menu__part__link:hover {
-    color:coral;
+    color:#df161a;
 }
 
 .submenu {
@@ -75,15 +75,15 @@ nav .menu__part__link:hover {
 	transition: opacity .5s, visibility .5s, transform .2s;
 }
 
-.submenu a li {
+.submenu a {
     font-family: 'French Script MT';
-    font-size: 1.35rem;
+    font-size: 1.5rem;
     text-decoration: none;
     color:black;
 }
 
-.submenu a li:hover {
-    color:coral;
+.submenu a:hover {
+    color:#df161a;
 }
 
 nav > ul li:hover .submenu {
@@ -101,11 +101,20 @@ nav > ul li:hover .submenu {
 .submenu a{ /* Mise en forme des onglets des sous-menus */
 	padding: 0.625rem;
 	border-bottom: none;
-    text-decoration: none;
+    color:black;
 }
 .submenu a:hover{
 	border-bottom: none;
 	background-color: rgba(200,200,200,0.1);
+}
+
+.submenu__part {
+    overflow: hidden;
+    display:grid;
+}
+
+.submenu__part:not(:last-child) {
+    margin-bottom: -0.75rem;
 }
 
 .scrolling-menu > a::after{ /* Symbole ▼ pour faire comprendre que c'est un menu déroulant */
