@@ -10,6 +10,8 @@
     <link rel="manifest" href="./assets/site.webmanifest">
     <link rel="mask-icon" href="./assets/safari-pinned-tab.svg" color="#5daaff">
     <link rel="shortcut icon" href="./assets/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <meta name="msapplication-TileColor" content="#5daaff">
     <meta name="msapplication-config" content="./assets/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
@@ -18,16 +20,17 @@
     <meta name="description" content="Si vous êtes amateurs de Musique, de Danse, d'Art en général et de Voyages, vous êtes ici chez vous !">
     <meta name="author" content="Roman Jbanov">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/430603bab2.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
-        <img class="header__banner" src="./assets/header.png" alt="banner">
+        <img class="header__banner no-select" src="./assets/header.png" alt="banner">
 
         <nav>
             <ul class="menu">
                 <div class="menu__parts">
-                    <li class="menu__part"><a class="menu__part__link" href="#">Accueil</a></li>
+                    <li class="menu__part"><a class="menu__part__link" href="accueil.html">Accueil</a></li>
                     <li class="menu__part"><a class="menu__part__link" href="#">Administration</a></li>
                     <li class="menu__part"><a class="menu__part__link" href="#">Statuts</a></li>
                     <li class="menu__part"><a class="menu__part__link" href="#">Adhésion</a></li>
@@ -87,10 +90,32 @@
                         nos projets vous plairont et qu'ils aboutiront.
                         <br>
                         <span class="centered-text calligraphy-letter">Amicalement.</span>
+                        <br>
+                        <span class="text-author centered-text calligraphy-letter">Roman Jbanov, Président de l'Association, chargé du développement international</span>
                     </p>
                 </div>   
             </div>
         </section>
     </main>
+
+    <footer>
+        <div class="social">
+            <a href="https://www.facebook.com/groups/162255880971788/" target="_blank"><i class="icon fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.youtube.com/channel/UCrPIdVbiyYxuocfEGNAcldg" target="_blank"><i class="icon fa-brands fa-youtube"></i></a>
+            <a href="https://vk.com/club72133984" target="_blank"><i class="icon fa-brands fa-vk"></i></a>
+        </div>
+        <ul class="list-inline">
+                <li class="list-inline-item"><a href="accueil.html">Accueil</a></li>
+                <li class="list-inline-item"><a href="#">Administration</a></li>
+                <li class="list-inline-item"><a href="#">Statuts</a></li>
+                <li class="list-inline-item"><a href="#">Adhésion</a></li>
+                <li class="list-inline-item"><a href="#">Projets</a></li>
+                <li class="list-inline-item">Festivals/Concours</li>
+                <li class="list-inline-item"><a href="#">Historique</a></li>
+                <li class="list-inline-item"><a href="#">Contact</a></li>
+                <li class="list-inline-item"><a href="#">Liens</a></li>
+        </ul>
+        <p class="copyright">© Sancybérie - Tous droits réservés</p>
+    </footer>
 </body>
 </html>
