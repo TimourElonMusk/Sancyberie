@@ -8,6 +8,7 @@
 header {
     text-align: center;
 	width: 100%;
+    box-sizing: border-box;
 	z-index: 9998;
 	position: -webkit-sticky;
     position: sticky;
@@ -28,7 +29,6 @@ header {
     user-select: none;
 }
 
-
 nav {
     width: 100%;
     background-color: white;
@@ -48,6 +48,7 @@ nav .menu__part {
     float: left;
     width: 11.111%;
     text-align: center;
+    margin-top: 4px;
 }
 
 nav .menu::after {
@@ -112,6 +113,8 @@ nav > ul li:hover .submenu {
 	padding: 0.625rem;
 	border-bottom: none;
     color:black;
+    display: flex;
+    align-items: center;
 }
 .submenu a:hover{
 	border-bottom: none;
