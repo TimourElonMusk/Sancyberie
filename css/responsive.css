@@ -1,0 +1,16 @@
+@media (max-width: 1763px) {
+    .scrolling-menu > a {
+        position: relative;
+        margin-left: -10px;
+    }
+
+    .scrolling-menu > a::after {
+        content: "▼";
+        font-size: 0.75rem;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        margin: 5px -6px auto 5px;
+    }
+}
