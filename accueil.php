@@ -4,6 +4,7 @@
 <head>
     <Title>Association Sancyberie - Site Officiel</Title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
@@ -71,24 +72,6 @@
         </section>
     </main>
 
-    <footer>
-        <div class="social">
-            <a href="https://www.facebook.com/groups/162255880971788/" target="_blank"><i class="icon fa-brands fa-facebook-f"></i></a>
-            <a href="https://www.youtube.com/channel/UCrPIdVbiyYxuocfEGNAcldg" target="_blank"><i class="icon fa-brands fa-youtube"></i></a>
-            <a href="https://vk.com/club72133984" target="_blank"><i class="icon fa-brands fa-vk"></i></a>
-        </div>
-        <ul class="list-inline">
-                <li class="list-inline-item"><a href="accueil.html">Accueil</a></li>
-                <li class="list-inline-item"><a href="#">Administration</a></li>
-                <li class="list-inline-item"><a href="#">Statuts</a></li>
-                <li class="list-inline-item"><a href="#">Adhésion</a></li>
-                <li class="list-inline-item"><a href="#">Projets</a></li>
-                <li class="list-inline-item">Festivals/Concours</li>
-                <li class="list-inline-item"><a href="#">Historique</a></li>
-                <li class="list-inline-item"><a href="#">Contact</a></li>
-                <li class="list-inline-item"><a href="#">Liens</a></li>
-        </ul>
-        <p class="copyright">© Sancybérie - Tous droits réservés</p>
-    </footer>
+    <?php include 'includes/footer.php';?>
 </body>
 </html>
