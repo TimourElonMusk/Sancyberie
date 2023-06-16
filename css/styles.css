@@ -36,28 +36,25 @@ nav {
     margin-top: -1px;
 }
 
-.menu {
+nav ul {
     background-color: #ddffc6;
-}
-
-nav .menu {
     list-style-type: none;
 }
 
-nav .menu__part {
+nav li {
     float: left;
     width: 11.111%;
     text-align: center;
     margin-top: 4px;
 }
 
-nav .menu::after {
+nav ul::after {
     content: "";
     display: table;
     clear: both;
 }
 
-nav .menu__part__link {
+nav a {
     display: inline-block;
     text-decoration: none;
     color: black;
@@ -67,7 +64,7 @@ nav .menu__part__link {
     line-height: 42px;
 }
 
-nav .menu__part__link:hover {
+nav a:hover {
     color:#df161a;
 }
 
@@ -103,14 +100,13 @@ nav > ul li:hover .submenu {
 	transform: translateY(0);
 }
 
-.submenu li{ /* Les éléments des sous-menus doivent s'afficher les uns en dessous des autres */
+.submenu li{
 	float: none;
 	width: 100%;
 	text-align: left;
 }
 
-.submenu a{ /* Mise en forme des onglets des sous-menus */
-	padding: 0.625rem;
+.submenu a{
 	border-bottom: none;
     color:black;
     display: flex;
@@ -121,16 +117,16 @@ nav > ul li:hover .submenu {
 	background-color: rgba(200,200,200,0.1);
 }
 
-.submenu__part {
+.submenu li {
     overflow: hidden;
     display:grid;
 }
 
-.submenu__part:not(:last-child) {
+.submenu li:not(:last-child) {
     margin-bottom: -0.75rem;
 }
 
-.scrolling-menu > a::after{ /* Symbole ▼ pour faire comprendre que c'est un menu déroulant */
+.scrolling-menu > a::after{
 	content: "▼";
 	font-size: 0.75rem;
 }
