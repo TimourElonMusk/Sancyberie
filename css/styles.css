@@ -68,6 +68,10 @@ nav a:hover {
     color:#df161a;
 }
 
+nav .nav-icon {
+    display: none;
+  }
+
 .submenu {
 	visibility: hidden;
 	box-shadow: 0 0.06rem 0.125rem rgb(44, 44, 44);
