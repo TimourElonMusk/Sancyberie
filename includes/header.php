@@ -1,6 +1,7 @@
 <header>
     <img class="header__banner no-select" src="./assets/header.png" alt="banner">
-    <nav>
+
+    <nav id="topnav">
         <ul>
             <li><a href="accueil.html">Accueil</a></li>
             <li><a href="#">Administration</a></li>
@@ -20,6 +21,7 @@
             <li><a href="#">Historique</a></li>
             <li><a href="#">Contact</a></li>
             <li><a href="#">Liens</a></li>
+            <a href="javascript:void(0);" class="nav-icon" onclick="myFunction">&#9776</a></li>
         </ul>
     </nav>
 </header>
