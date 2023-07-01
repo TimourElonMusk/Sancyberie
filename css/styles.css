@@ -36,25 +36,25 @@ nav {
     margin-top: -1px;
 }
 
-nav ul {
+.topnav ul {
     background-color: #ddffc6;
     list-style-type: none;
 }
 
-nav li {
+.topnav li {
     float: left;
     width: 11.111%;
     text-align: center;
     margin-top: 4px;
 }
 
-nav ul::after {
+.topnav ul::after {
     content: "";
     display: table;
     clear: both;
 }
 
-nav a {
+.topnav a {
     display: inline-block;
     text-decoration: none;
     color: black;
@@ -64,11 +64,11 @@ nav a {
     line-height: 42px;
 }
 
-nav a:hover {
+.topnav a:hover {
     color:#df161a;
 }
 
-nav .nav-icon {
+.topnav .nav-icon {
     display: none;
   }
 
@@ -98,7 +98,7 @@ nav .nav-icon {
     color:#df161a;
 }
 
-nav > ul li:hover .submenu {
+.topnav > ul li:hover .submenu {
 	visibility: visible;
 	opacity: 1;
 	transform: translateY(0);
