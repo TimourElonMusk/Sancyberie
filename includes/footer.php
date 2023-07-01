@@ -1,8 +1,8 @@
 <footer>
     <div class="social">
-        <a href="https://www.facebook.com/groups/162255880971788/" target="_blank"><i class="footer-icon fa-brands fa-facebook-f"></i></a>
-        <a href="https://www.youtube.com/channel/UCrPIdVbiyYxuocfEGNAcldg" target="_blank"><i class="footer-icon fa-brands fa-youtube"></i></a>
-        <a href="https://vk.com/club72133984" target="_blank"><i class="footer-icon fa-brands fa-vk"></i></a>
+        <a href="https://www.facebook.com/groups/162255880971788/" title="Etoiles Sancyberie" target="_blank"><i class="footer-icon fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.youtube.com/channel/UCrPIdVbiyYxuocfEGNAcldg" title="Sancyberie" target="_blank"><i class="footer-icon fa-brands fa-youtube"></i></a>
+        <a href="https://vk.com/club72133984" title="«Les étoiles Sancybérie»" target="_blank"><i class="footer-icon fa-brands fa-vk"></i></a>
     </div>
     <ul class="list-inline">
             <li class="list-inline-item"><a href="accueil.html">Accueil</a></li>
