@@ -14,26 +14,28 @@
     }
 }
 
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Accueil"). Show the link that contains should open and close the topnav (.nav-icon) */
 @media screen and (max-width: 600px) {
-    nav a:not(:first-child), .scrolling-menu {
+    .topnav ul li a:not(:first-child), .scrolling-menu {
       display: none;
     }
-    nav a .nav-icon {
+    .topnav ul li a.nav-icon {
       float: right;
       display: block;
     }
 }
   
-  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  /* The "responsive-nav" class is added to the topnav with JavaScript when the user clicks on the
+  icon. This class makes the topnav look good on small screens (display the links vertically instead
+  of horizontally) */
   @media screen and (max-width: 600px) {
-    nav .ul .responsive-nav {position: relative;}
-    nav .ul .responsive-nav a .nav-icon {
+    .topnav .responsive-nav {position: relative;}
+    .topnav .responsive-nav ul li a.nav-icon {
       position: absolute;
       right: 0;
       top: 0;
     }
-    nav.responsive-nav a {
+    .topnav .responsive-nav ul li a {
       float: none;
       display: block;
       text-align: left;
