@@ -7,12 +7,13 @@
 
 header {
     text-align: center;
-	width: 100%;
     box-sizing: border-box;
 	z-index: 9998;
 	position: -webkit-sticky;
     position: sticky;
     top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .header__banner {
@@ -34,27 +35,28 @@ nav {
     background-color: white;
     z-index: 9999;
     margin-top: -1px;
+    width: 100%;
 }
 
-.topnav ul {
+nav ul {
     background-color: #ddffc6;
     list-style-type: none;
 }
 
-.topnav li {
+nav li {
     float: left;
     width: 11.111%;
     text-align: center;
     margin-top: 4px;
 }
 
-.topnav ul::after {
+nav ul::after {
     content: "";
     display: table;
     clear: both;
 }
 
-.topnav a {
+nav a {
     display: inline-block;
     text-decoration: none;
     color: black;
@@ -64,13 +66,9 @@ nav {
     line-height: 42px;
 }
 
-.topnav a:hover {
+nav a:hover {
     color:#df161a;
 }
-
-.topnav .nav-icon {
-    display: none;
-  }
 
 .submenu {
 	visibility: hidden;
@@ -98,7 +96,7 @@ nav {
     color:#df161a;
 }
 
-.topnav > ul li:hover .submenu {
+nav > ul li:hover .submenu {
 	visibility: visible;
 	opacity: 1;
 	transform: translateY(0);
@@ -239,4 +237,9 @@ footer .copyright {
     font-size:13px;
     color:#aaa;
     margin-bottom:0;
+}
+
+.hamburger {
+    display: none;
+    font-size: 1.5rem
 }
