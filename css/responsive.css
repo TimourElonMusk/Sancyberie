@@ -1,50 +1,31 @@
-@media screen and (max-width: 1763px) {
+@media screen and (max-width: 1780px) {
     .scrolling-menu > a {
-      position: relative;
-      margin-left: -10px;
+        position: relative;
+        margin-left: -10px;
     }
+
     .scrolling-menu > a::after {
-      content: "▼";
-      font-size: 0.75rem;
-      position: absolute;
-      top: 50%;
-      right: 0;
-      transform: translateY(-50%);
-      margin: 5px -6px auto 5px;
+        content: "▼";
+        font-size: 0.75rem;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        margin: 5px -6px auto 5px;
     }
 }
 
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Accueil"). Show the link that contains should open and close the topnav (.nav-icon) */
-@media screen and (max-width: 600px) {
-    .topnav ul li a:not(:first-child), .scrolling-menu {
-      display: none;
+@media screen and (max-width: 1380px) {
+    nav li {
+        display: none;
     }
-    .topnav ul li a.nav-icon {
-      float: right;
-      display: block;
+
+    .hamburger {
+        display: table;
+        position: relative;
     }
-}
-  
-  /* The "responsive-nav" class is added to the topnav with JavaScript when the user clicks on the
-  icon. This class makes the topnav look good on small screens (display the links vertically instead
-  of horizontally) */
-  @media screen and (max-width: 600px) {
-    .topnav .responsive-nav {position: relative;}
-    .topnav .responsive-nav ul li a.nav-icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .topnav .responsive-nav ul li a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-    nav .responsive-nav .scrolling-menu {float: none;}
-    nav .responsive-nav .submenu {position: relative;}
-    nav .responsive-nav .scrolling-menu {
-      display: block;
-      width: 100%;
-      text-align: left;
+
+    nav li {
+        margin: 0.5rem;
     }
 }
