@@ -3,15 +3,16 @@
 
 <head>
     <Title>Association Sancyberie - Site Officiel</Title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/responsive.css">
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
     <link rel="manifest" href="./assets/site.webmanifest">
     <link rel="mask-icon" href="./assets/safari-pinned-tab.svg" color="#5daaff">
     <link rel="shortcut icon" href="./assets/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <meta name="msapplication-TileColor" content="#5daaff">
     <meta name="msapplication-config" content="./assets/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
@@ -20,7 +21,6 @@
     <meta name="description" content="Si vous êtes amateurs de Musique, de Danse, d'Art en général et de Voyages, vous êtes ici chez vous !">
     <meta name="author" content="Roman Jbanov">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="js/main.js"></script>
     <script src="https://kit.fontawesome.com/430603bab2.js" crossorigin="anonymous"></script>
 </head>
 
@@ -64,6 +64,8 @@
                         nos projets vous plairont et qu'ils aboutiront.
                         <br>
                         <span class="centered-text calligraphy-letter">Amicalement.</span>
+                        <br>
+                        <span class="text-author centered-text calligraphy-letter">Roman Jbanov, Président de l'Association, chargé du développement international</span>
                     </p>
                 </div>   
             </div>
